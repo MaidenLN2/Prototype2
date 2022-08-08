@@ -1330,3 +1330,1159 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.08.08-01.47.55:189][282]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2022.08.08-01.47.55:193][282]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
 [2022.08.08-01.47.55:210][283]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2022.08.08-01.49.43:194][  5]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\Users\MDS000026E\Downloads\Steps.wav)
+[2022.08.08-01.51.17:197][288]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Steps...
+[2022.08.08-01.51.17:197][288]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FirstPersonBP/Sounds/Steps.Steps will be modified from 40 to 40.
+[2022.08.08-01.51.17:321][288]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 1536000 while cooking SoundWave /Game/FirstPersonBP/Sounds/Steps.Steps.
+[2022.08.08-01.51.25:522][247]LogContentBrowser: Attempting asset rename: Steps -> Steps_Wood
+[2022.08.08-01.51.25:566][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Sounds/Steps_Wood" FILE="D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Sounds/Steps_Wood.uasset" SILENT=true
+[2022.08.08-01.51.25:568][247]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Steps_WoodB496F36044C001F5D9AB84AF341CCB4F.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Sounds/Steps_Wood.uasset'
+[2022.08.08-01.51.25:655][247]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2022.08.08-01.51.25:688][247]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2022.08.08-01.51.25:712][247]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.08.08-01.51.25:739][247]AssetCheck: New page: Asset Save: Steps_Wood
+[2022.08.08-01.51.25:739][247]LogContentValidation: Display: Validating SoundWave /Game/FirstPersonBP/Sounds/Steps_Wood.Steps_Wood
+[2022.08.08-01.52.25:927][452]LogTemp: Repeating last play command: Selected Viewport
+[2022.08.08-01.52.25:932][452]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.08.08-01.52.25:933][452]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter_BP before play...
+[2022.08.08-01.52.25:964][452]LogPlayLevel: [PlayLevel] Compiling ReceptionLevel_Map before play...
+[2022.08.08-01.52.26:004][452]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2022.08.08-01.52.26:006][452]LogPlayLevel: PlayLevel: Blueprint regeneration took 74 ms (2 blueprints)
+[2022.08.08-01.52.26:006][452]PIE: New page: PIE session: ReceptionLevel_Map (Aug 9, 2022, 1:52:26 AM)
+[2022.08.08-01.52.26:032][452]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map
+[2022.08.08-01.52.26:045][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013374s)
+[2022.08.08-01.52.26:046][452]LogAIModule: Creating AISystem for world ReceptionLevel_Map
+[2022.08.08-01.52.26:047][452]LogPlayLevel: PIE: World Init took: (0.001558s)
+[2022.08.08-01.52.26:047][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/ReceptionLevel_Map.ReceptionLevel_Map to /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map.ReceptionLevel_Map (0.015127s)
+[2022.08.08-01.52.26:076][452]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2022.08.08-01.52.26:077][452]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.08.08-01.52.26:077][452]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.08-01.52.26:077][452]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.08-01.52.26:077][452]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.08-01.52.26:077][452]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.08-01.52.26:077][452]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.08-01.52.26:077][452]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.08-01.52.26:077][452]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.08-01.52.26:077][452]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.08-01.52.26:078][452]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.08-01.52.26:078][452]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.08-01.52.26:078][452]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.08-01.52.26:078][452]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.08-01.52.26:081][452]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.08-01.52.26:081][452]LogAudioMixer: Display: 1: FrontRight
+[2022.08.08-01.52.26:086][452]LogAudioMixer: Display: Using Audio Device Headphones (Synaptics HD Audio)
+[2022.08.08-01.52.26:086][452]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.08-01.52.26:086][452]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.08-01.52.26:086][452]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.08-01.52.26:087][452]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.08-01.52.26:087][452]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.08.08-01.52.26:087][452]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.08.08-01.52.26:088][452]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.08.08-01.52.26:088][452]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.08.08-01.52.26:088][452]LogInit: FAudioDevice initialized.
+[2022.08.08-01.52.26:088][452]LogAudio: Display: Audio Device (ID: 7) registered with world 'ReceptionLevel_Map'.
+[2022.08.08-01.52.26:095][452]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.08.08-01.52.26:097][452]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map.ReceptionLevel_Map up for play (max tick rate 0) at 2022.08.08-13.52.26
+[2022.08.08-01.52.26:097][452]LogWorld: Bringing up level for play took: 0.001234
+[2022.08.08-01.52.26:097][452]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2022.08.08-01.52.26:099][452]PIE: Server logged in
+[2022.08.08-01.52.26:100][452]PIE: Play in editor total start time 0.169 seconds.
+[2022.08.08-01.52.37:353][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.08-01.52.37:353][794]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map
+[2022.08.08-01.52.37:353][794]LogWorld: UWorld::CleanupWorld for ReceptionLevel_Map, bSessionEnded=true, bCleanupResources=true
+[2022.08.08-01.52.37:353][794]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.08-01.52.37:361][794]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.08-01.52.37:365][794]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.08-01.52.37:388][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.08-01.52.37:389][794]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.08.08-01.52.37:389][794]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.08.08-01.52.37:394][794]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.08.08-01.52.37:426][797]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.08.08-01.58.56:033][455]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2022.08.08-01.58.56:051][455]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/ReceptionLevel_Map_Auto14278B6B34B3A4E52584C16A04F5691BA.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Autosaves/Game/FirstPersonBP/Maps/ReceptionLevel_Map_Auto1.umap'
+[2022.08.08-01.58.56:052][455]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonBP/Maps/ReceptionLevel_Map' took 0.048
+[2022.08.08-01.58.56:052][455]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.048
+[2022.08.08-01.58.56:053][455]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonGameMode] ([2] browsable assets)...
+[2022.08.08-01.58.56:053][455]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonGameMode]
+[2022.08.08-01.58.56:055][455]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/FirstPersonGameMode_Auto128011E7A4469550AD72E45A8A937CF4E.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonGameMode_Auto1.uasset'
+[2022.08.08-01.58.56:055][455]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Sounds/BrownNoise] ([1] browsable assets)...
+[2022.08.08-01.58.56:072][455]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/Sounds/BrownNoise.BrownNoise]
+[2022.08.08-01.58.56:072][455]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Sounds/BrownNoise]
+[2022.08.08-01.58.56:110][455]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/BrownNoise_Auto10BB909D6452985979F7F39915161C454.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Autosaves/Game/FirstPersonBP/Sounds/BrownNoise_Auto1.uasset'
+[2022.08.08-01.58.56:110][455]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_BP] ([2] browsable assets)...
+[2022.08.08-01.58.56:110][455]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_BP]
+[2022.08.08-01.58.56:126][455]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/FirstPersonCharacter_BP_Auto1D0CA6ACF4DF9C21D4A692BA935CE60C1.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_BP_Auto1.uasset'
+[2022.08.08-01.58.56:126][455]LogFileHelpers: Auto-saving content packages took 0.075
+[2022.08.08-02.00.29:928][792]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\Users\MDS000026E\Documents\GitHub\Prototype2\HauntedHotel\Content\FirstPersonBP\Sounds\Ghosts.wav)
+[2022.08.08-02.00.50:124][792]LogSlate: Window 'Message' being destroyed
+[2022.08.08-02.00.50:130][792]Message dialog closed, result: No, title: Message, text: Use the selected Sound Wave 'Steps_Wood' in the Content Browser as a template for sound(s) being imported?
+[2022.08.08-02.00.50:150][792]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\Users\MDS000026E\Documents\GitHub\Prototype2\HauntedHotel\Content\FirstPersonBP\Sounds\WhisperingVoices.wav)
+[2022.08.08-02.01.14:455][ 66]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.08.08-02.01.22:838][ 66]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.08.08-02.01.22:846][ 66]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.08.08-02.01.22:858][ 66]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.08.08-02.01.33:903][392]LogContentBrowser: Attempting asset rename: NewBlueprint -> SoundOverlap_BP
+[2022.08.08-02.01.33:906][392]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.08.08-02.01.36:086][652]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/SoundOverlap_BP.SoundOverlap_BP
+[2022.08.08-02.01.44:920][ 41]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.44:929][ 42]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.44:939][ 43]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.44:947][ 44]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.44:955][ 45]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.44:963][ 46]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.44:972][ 47]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.44:980][ 48]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.44:988][ 49]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.44:997][ 50]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:005][ 51]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:013][ 52]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:021][ 53]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:030][ 54]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:038][ 55]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:047][ 56]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:055][ 57]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:064][ 58]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:072][ 59]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:080][ 60]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:088][ 61]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:097][ 62]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:105][ 63]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:113][ 64]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:122][ 65]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:130][ 66]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:139][ 67]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:148][ 68]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:156][ 69]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:164][ 70]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:172][ 71]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:180][ 72]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:189][ 73]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:197][ 74]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:206][ 75]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:214][ 76]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:222][ 77]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:230][ 78]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:267][ 79]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:279][ 80]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:288][ 81]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:297][ 82]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:325][ 83]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:336][ 84]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:346][ 85]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:357][ 86]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:368][ 87]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:379][ 88]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:390][ 89]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:400][ 90]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:416][ 91]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:429][ 92]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:440][ 93]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:453][ 94]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:463][ 95]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:475][ 96]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:500][ 97]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:510][ 98]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:520][ 99]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:528][100]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:537][101]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:548][102]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:557][103]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:567][104]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:572][105]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:574][105]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:575][105]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:576][105]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:583][105]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:587][106]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:588][106]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:589][106]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:590][106]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:596][106]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:600][107]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:601][107]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:609][107]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:612][108]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:614][108]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:615][108]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:617][108]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:623][108]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:626][109]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:628][109]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:628][109]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:630][109]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:635][109]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:639][110]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:639][110]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:646][110]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:650][111]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:650][111]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:658][111]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:683][112]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:692][113]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:702][114]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:711][115]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:720][116]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:728][117]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:737][118]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:747][119]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:756][120]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:766][121]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:775][122]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:784][123]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:793][124]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:803][125]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:811][126]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:820][127]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:828][128]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:837][129]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:846][130]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:854][131]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:863][132]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:872][133]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:881][134]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:890][135]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:899][136]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:907][137]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:916][138]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:924][139]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:933][140]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:942][141]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:952][142]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:961][143]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:971][144]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:981][145]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.45:992][146]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:005][147]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:015][148]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:024][149]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:035][150]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:045][151]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:055][152]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:066][153]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:077][154]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:088][155]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:099][156]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:107][157]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:116][158]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:123][159]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:132][160]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:140][161]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:149][162]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:161][163]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:169][164]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:177][165]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:186][166]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:194][167]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:199][168]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:199][168]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:200][168]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:217][168]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:220][169]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:221][169]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:221][169]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:227][169]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:230][170]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:231][170]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:238][170]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:240][171]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:241][171]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:242][171]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:249][171]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:252][172]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:253][172]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:254][172]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:260][172]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:268][173]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:271][174]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:271][174]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:278][174]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:282][175]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:288][175]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:296][176]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:299][177]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:305][177]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:308][178]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:314][178]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:321][179]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:324][180]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:330][180]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:333][181]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:339][181]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:346][182]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:349][183]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:355][183]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:358][184]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:364][184]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:371][185]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:374][186]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:381][186]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:384][187]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:384][187]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:390][187]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:398][188]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:400][189]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:407][189]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:410][190]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:416][190]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:423][191]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:426][192]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:432][192]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:435][193]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:441][193]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:449][194]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:456][195]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.01.46:457][195]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/FirstPersonBP/Props/Statue/Statue_SM.Statue_SM"''
+[2022.08.08-02.03.13:969][397]LogContentBrowser: Deferred new asset file creation: Ghosts_Cue
+[2022.08.08-02.03.13:989][397]LogContentBrowser: Creating deferred item: Ghosts_Cue
+[2022.08.08-02.03.15:262][547]LogContentBrowser: Attempting asset rename: Ghosts_Cue -> Ghosts_Cue
+[2022.08.08-02.03.15:263][547]LogContentBrowser: End creating deferred item Ghosts_Cue
+[2022.08.08-02.03.17:240][775]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/FirstPersonBP/Sounds/Ghosts_Cue.Ghosts_Cue
+[2022.08.08-02.03.44:022][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Sounds/Ghosts_Cue" FILE="D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Sounds/Ghosts_Cue.uasset" SILENT=true
+[2022.08.08-02.03.44:023][946]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Ghosts_CueE4E5176E4CF85C927C47C78F35D4D209.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Sounds/Ghosts_Cue.uasset'
+[2022.08.08-02.03.44:049][946]AssetCheck: New page: Asset Save: Ghosts_Cue
+[2022.08.08-02.03.44:049][946]LogContentValidation: Display: Validating SoundCue /Game/FirstPersonBP/Sounds/Ghosts_Cue.Ghosts_Cue
+[2022.08.08-02.04.00:899][644]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.08.08-02.04.38:475][627]BlueprintLog: New page: Compile SoundOverlap_BP
+[2022.08.08-02.04.38:527][627]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2022.08.08-02.05.28:979][255]LogRenderer: Reallocating scene render targets to support 1212x900 Format 10 NumSamples 1 (Frame:81545).
+[2022.08.08-02.05.29:029][256]LogRenderer: Reallocating scene render targets to support 1224x900 Format 10 NumSamples 1 (Frame:81547).
+[2022.08.08-02.05.29:099][257]LogRenderer: Reallocating scene render targets to support 1232x900 Format 10 NumSamples 1 (Frame:81549).
+[2022.08.08-02.05.29:145][258]LogRenderer: Reallocating scene render targets to support 1248x900 Format 10 NumSamples 1 (Frame:81551).
+[2022.08.08-02.05.29:187][259]LogRenderer: Reallocating scene render targets to support 1252x900 Format 10 NumSamples 1 (Frame:81553).
+[2022.08.08-02.05.29:252][264]LogRenderer: Reallocating scene render targets to support 1256x900 Format 10 NumSamples 1 (Frame:81555).
+[2022.08.08-02.05.29:328][266]LogRenderer: Reallocating scene render targets to support 1260x900 Format 10 NumSamples 1 (Frame:81559).
+[2022.08.08-02.05.43:443][842]LogTemp: Repeating last play command: Selected Viewport
+[2022.08.08-02.05.43:449][842]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.08-02.05.43:449][842]PIE: New page: PIE session: ReceptionLevel_Map (Aug 9, 2022, 2:05:43 AM)
+[2022.08.08-02.05.43:449][842]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map
+[2022.08.08-02.05.43:460][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010190s)
+[2022.08.08-02.05.43:461][842]LogAIModule: Creating AISystem for world ReceptionLevel_Map
+[2022.08.08-02.05.43:461][842]LogPlayLevel: PIE: World Init took: (0.001377s)
+[2022.08.08-02.05.43:461][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/ReceptionLevel_Map.ReceptionLevel_Map to /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map.ReceptionLevel_Map (0.011730s)
+[2022.08.08-02.05.43:493][842]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2022.08.08-02.05.43:496][842]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.08.08-02.05.43:496][842]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.08-02.05.43:496][842]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.08-02.05.43:496][842]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.08-02.05.43:496][842]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.08-02.05.43:496][842]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.08-02.05.43:496][842]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.08-02.05.43:496][842]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.08-02.05.43:496][842]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.08-02.05.43:496][842]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.08-02.05.43:496][842]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.08-02.05.43:496][842]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.08-02.05.43:496][842]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.08-02.05.43:499][842]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.08-02.05.43:500][842]LogAudioMixer: Display: 1: FrontRight
+[2022.08.08-02.05.43:505][842]LogAudioMixer: Display: Using Audio Device Headphones (Synaptics HD Audio)
+[2022.08.08-02.05.43:506][842]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.08-02.05.43:506][842]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.08-02.05.43:506][842]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.08-02.05.43:506][842]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.08-02.05.43:506][842]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.08.08-02.05.43:506][842]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.08.08-02.05.43:507][842]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.08.08-02.05.43:507][842]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.08.08-02.05.43:507][842]LogInit: FAudioDevice initialized.
+[2022.08.08-02.05.43:507][842]LogAudio: Display: Audio Device (ID: 8) registered with world 'ReceptionLevel_Map'.
+[2022.08.08-02.05.43:517][842]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.08.08-02.05.43:520][842]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map.ReceptionLevel_Map up for play (max tick rate 0) at 2022.08.08-14.05.43
+[2022.08.08-02.05.43:520][842]LogWorld: Bringing up level for play took: 0.001447
+[2022.08.08-02.05.43:520][842]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2022.08.08-02.05.43:522][842]PIE: Server logged in
+[2022.08.08-02.05.43:523][842]PIE: Play in editor total start time 0.077 seconds.
+[2022.08.08-02.05.46:219][162]LogAudio: Warning: Detected orphaned looping sound 'Ghosts_Cue'.
+[2022.08.08-02.05.46:221][162]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Ghosts...
+[2022.08.08-02.05.46:222][162]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FirstPersonBP/Sounds/Ghosts.Ghosts will be modified from 40 to 40.
+[2022.08.08-02.05.46:562][162]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 4128768 while cooking SoundWave /Game/FirstPersonBP/Sounds/Ghosts.Ghosts.
+[2022.08.08-02.05.49:464][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.08-02.05.49:464][505]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map
+[2022.08.08-02.05.49:464][505]LogWorld: UWorld::CleanupWorld for ReceptionLevel_Map, bSessionEnded=true, bCleanupResources=true
+[2022.08.08-02.05.49:464][505]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.08-02.05.49:474][505]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.08-02.05.49:483][505]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.08-02.05.49:509][505]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.08.08-02.05.49:509][505]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.08.08-02.05.49:510][505]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.08.08-02.05.49:512][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.08-02.05.49:516][505]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2022.08.08-02.05.49:542][506]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2022.08.08-02.06.26:856][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Sounds/Ghosts_Cue" FILE="D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Sounds/Ghosts_Cue.uasset" SILENT=true
+[2022.08.08-02.06.26:857][363]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Ghosts_Cue90D2411C4245575567730E99857A0684.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Sounds/Ghosts_Cue.uasset'
+[2022.08.08-02.06.26:871][363]AssetCheck: New page: Asset Save: Ghosts_Cue
+[2022.08.08-02.06.26:871][363]LogContentValidation: Display: Validating SoundCue /Game/FirstPersonBP/Sounds/Ghosts_Cue.Ghosts_Cue
+[2022.08.08-02.06.32:360][912]LogTemp: Repeating last play command: Selected Viewport
+[2022.08.08-02.06.32:365][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.08-02.06.32:365][912]PIE: New page: PIE session: ReceptionLevel_Map (Aug 9, 2022, 2:06:32 AM)
+[2022.08.08-02.06.32:413][912]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map
+[2022.08.08-02.06.32:423][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010682s)
+[2022.08.08-02.06.32:425][912]LogAIModule: Creating AISystem for world ReceptionLevel_Map
+[2022.08.08-02.06.32:425][912]LogPlayLevel: PIE: World Init took: (0.001553s)
+[2022.08.08-02.06.32:425][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/ReceptionLevel_Map.ReceptionLevel_Map to /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map.ReceptionLevel_Map (0.012438s)
+[2022.08.08-02.06.32:458][912]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2022.08.08-02.06.32:459][912]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.08.08-02.06.32:459][912]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.08-02.06.32:459][912]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.08-02.06.32:459][912]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.08-02.06.32:459][912]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.08-02.06.32:460][912]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.08-02.06.32:460][912]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.08-02.06.32:460][912]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.08-02.06.32:460][912]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.08-02.06.32:460][912]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.08-02.06.32:460][912]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.08-02.06.32:460][912]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.08-02.06.32:460][912]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.08-02.06.32:463][912]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.08-02.06.32:463][912]LogAudioMixer: Display: 1: FrontRight
+[2022.08.08-02.06.32:469][912]LogAudioMixer: Display: Using Audio Device Headphones (Synaptics HD Audio)
+[2022.08.08-02.06.32:469][912]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.08-02.06.32:469][912]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.08-02.06.32:469][912]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.08-02.06.32:469][912]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.08-02.06.32:469][912]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.08.08-02.06.32:469][912]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.08.08-02.06.32:470][912]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.08.08-02.06.32:470][912]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.08.08-02.06.32:470][912]LogInit: FAudioDevice initialized.
+[2022.08.08-02.06.32:470][912]LogAudio: Display: Audio Device (ID: 9) registered with world 'ReceptionLevel_Map'.
+[2022.08.08-02.06.32:479][912]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.08.08-02.06.32:481][912]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map.ReceptionLevel_Map up for play (max tick rate 0) at 2022.08.08-14.06.32
+[2022.08.08-02.06.32:481][912]LogWorld: Bringing up level for play took: 0.001209
+[2022.08.08-02.06.32:481][912]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2022.08.08-02.06.32:484][912]PIE: Server logged in
+[2022.08.08-02.06.32:485][912]PIE: Play in editor total start time 0.121 seconds.
+[2022.08.08-02.06.35:407][259]LogAudio: Warning: Detected orphaned looping sound 'Ghosts_Cue'.
+[2022.08.08-02.06.39:784][779]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.08-02.06.39:784][779]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map
+[2022.08.08-02.06.39:785][779]LogWorld: UWorld::CleanupWorld for ReceptionLevel_Map, bSessionEnded=true, bCleanupResources=true
+[2022.08.08-02.06.39:785][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.08-02.06.39:792][779]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.08-02.06.39:801][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.08-02.06.39:826][779]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.08-02.06.39:826][779]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.08.08-02.06.39:827][779]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.08.08-02.06.39:832][779]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2022.08.08-02.06.39:859][780]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2022.08.08-02.06.48:491][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Sounds/Ghosts_Cue" FILE="D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Sounds/Ghosts_Cue.uasset" SILENT=true
+[2022.08.08-02.06.48:492][629]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Ghosts_Cue2A4DA4B54C57AE59542AF7BA7F9A393B.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Sounds/Ghosts_Cue.uasset'
+[2022.08.08-02.06.48:510][629]AssetCheck: New page: Asset Save: Ghosts_Cue
+[2022.08.08-02.06.48:510][629]LogContentValidation: Display: Validating SoundCue /Game/FirstPersonBP/Sounds/Ghosts_Cue.Ghosts_Cue
+[2022.08.08-02.06.50:678][850]LogTemp: Repeating last play command: Selected Viewport
+[2022.08.08-02.06.50:682][850]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.08-02.06.50:682][850]PIE: New page: PIE session: ReceptionLevel_Map (Aug 9, 2022, 2:06:50 AM)
+[2022.08.08-02.06.50:712][850]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map
+[2022.08.08-02.06.50:723][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010618s)
+[2022.08.08-02.06.50:724][850]LogAIModule: Creating AISystem for world ReceptionLevel_Map
+[2022.08.08-02.06.50:725][850]LogPlayLevel: PIE: World Init took: (0.001526s)
+[2022.08.08-02.06.50:725][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/ReceptionLevel_Map.ReceptionLevel_Map to /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map.ReceptionLevel_Map (0.012317s)
+[2022.08.08-02.06.50:757][850]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.08.08-02.06.50:759][850]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.08.08-02.06.50:759][850]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.08-02.06.50:759][850]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.08-02.06.50:759][850]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.08-02.06.50:759][850]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.08-02.06.50:759][850]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.08-02.06.50:759][850]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.08-02.06.50:759][850]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.08-02.06.50:759][850]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.08-02.06.50:759][850]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.08-02.06.50:759][850]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.08-02.06.50:759][850]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.08-02.06.50:759][850]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.08-02.06.50:762][850]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.08-02.06.50:762][850]LogAudioMixer: Display: 1: FrontRight
+[2022.08.08-02.06.50:768][850]LogAudioMixer: Display: Using Audio Device Headphones (Synaptics HD Audio)
+[2022.08.08-02.06.50:768][850]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.08-02.06.50:768][850]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.08-02.06.50:768][850]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.08-02.06.50:768][850]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.08-02.06.50:769][850]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.08.08-02.06.50:769][850]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.08.08-02.06.50:769][850]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.08.08-02.06.50:769][850]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.08.08-02.06.50:769][850]LogInit: FAudioDevice initialized.
+[2022.08.08-02.06.50:769][850]LogAudio: Display: Audio Device (ID: 10) registered with world 'ReceptionLevel_Map'.
+[2022.08.08-02.06.50:781][850]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.08.08-02.06.50:784][850]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map.ReceptionLevel_Map up for play (max tick rate 0) at 2022.08.08-14.06.50
+[2022.08.08-02.06.50:784][850]LogWorld: Bringing up level for play took: 0.001989
+[2022.08.08-02.06.50:784][850]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2022.08.08-02.06.50:786][850]PIE: Server logged in
+[2022.08.08-02.06.50:787][850]PIE: Play in editor total start time 0.106 seconds.
+[2022.08.08-02.06.53:460][167]LogAudio: Warning: Detected orphaned looping sound 'Ghosts_Cue'.
+[2022.08.08-02.07.01:603][138]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.08-02.07.01:603][138]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map
+[2022.08.08-02.07.01:603][138]LogWorld: UWorld::CleanupWorld for ReceptionLevel_Map, bSessionEnded=true, bCleanupResources=true
+[2022.08.08-02.07.01:604][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.08-02.07.01:610][138]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.08-02.07.01:619][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.08-02.07.01:644][138]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.08-02.07.01:645][138]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.08.08-02.07.01:646][138]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.08.08-02.07.01:650][138]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2022.08.08-02.07.01:676][139]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2022.08.08-02.07.10:306][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Sounds/Ghosts_Cue" FILE="D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Sounds/Ghosts_Cue.uasset" SILENT=true
+[2022.08.08-02.07.10:308][968]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Ghosts_CueB22CCA014AC959288B4F1EB743404F3B.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Sounds/Ghosts_Cue.uasset'
+[2022.08.08-02.07.10:323][968]AssetCheck: New page: Asset Save: Ghosts_Cue
+[2022.08.08-02.07.10:323][968]LogContentValidation: Display: Validating SoundCue /Game/FirstPersonBP/Sounds/Ghosts_Cue.Ghosts_Cue
+[2022.08.08-02.07.12:210][171]LogTemp: Repeating last play command: Selected Viewport
+[2022.08.08-02.07.12:215][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.08-02.07.12:215][171]PIE: New page: PIE session: ReceptionLevel_Map (Aug 9, 2022, 2:07:12 AM)
+[2022.08.08-02.07.12:242][171]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map
+[2022.08.08-02.07.12:251][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009269s)
+[2022.08.08-02.07.12:253][171]LogAIModule: Creating AISystem for world ReceptionLevel_Map
+[2022.08.08-02.07.12:253][171]LogPlayLevel: PIE: World Init took: (0.001386s)
+[2022.08.08-02.07.12:253][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/ReceptionLevel_Map.ReceptionLevel_Map to /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map.ReceptionLevel_Map (0.010870s)
+[2022.08.08-02.07.12:284][171]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2022.08.08-02.07.12:285][171]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.08.08-02.07.12:285][171]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.08-02.07.12:285][171]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.08-02.07.12:285][171]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.08-02.07.12:285][171]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.08-02.07.12:285][171]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.08-02.07.12:285][171]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.08-02.07.12:285][171]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.08-02.07.12:285][171]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.08-02.07.12:286][171]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.08-02.07.12:286][171]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.08-02.07.12:286][171]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.08-02.07.12:286][171]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.08-02.07.12:289][171]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.08-02.07.12:289][171]LogAudioMixer: Display: 1: FrontRight
+[2022.08.08-02.07.12:293][171]LogAudioMixer: Display: Using Audio Device Headphones (Synaptics HD Audio)
+[2022.08.08-02.07.12:294][171]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.08-02.07.12:294][171]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.08-02.07.12:294][171]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.08-02.07.12:294][171]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.08-02.07.12:294][171]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.08.08-02.07.12:294][171]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.08.08-02.07.12:295][171]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.08.08-02.07.12:295][171]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.08.08-02.07.12:295][171]LogInit: FAudioDevice initialized.
+[2022.08.08-02.07.12:295][171]LogAudio: Display: Audio Device (ID: 11) registered with world 'ReceptionLevel_Map'.
+[2022.08.08-02.07.12:306][171]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.08.08-02.07.12:308][171]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map.ReceptionLevel_Map up for play (max tick rate 0) at 2022.08.08-14.07.12
+[2022.08.08-02.07.12:308][171]LogWorld: Bringing up level for play took: 0.001105
+[2022.08.08-02.07.12:308][171]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2022.08.08-02.07.12:310][171]PIE: Server logged in
+[2022.08.08-02.07.12:311][171]PIE: Play in editor total start time 0.097 seconds.
+[2022.08.08-02.07.14:914][480]LogAudio: Warning: Detected orphaned looping sound 'Ghosts_Cue'.
+[2022.08.08-02.07.21:213][233]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.08-02.07.21:213][233]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map
+[2022.08.08-02.07.21:214][233]LogWorld: UWorld::CleanupWorld for ReceptionLevel_Map, bSessionEnded=true, bCleanupResources=true
+[2022.08.08-02.07.21:214][233]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.08-02.07.21:226][233]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.08-02.07.21:235][233]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.08-02.07.21:262][233]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.08-02.07.21:262][233]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.08.08-02.07.21:263][233]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.08.08-02.07.21:268][233]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2022.08.08-02.07.21:290][234]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2022.08.08-02.07.30:460][308]LogTemp: Repeating last play command: Selected Viewport
+[2022.08.08-02.07.30:465][308]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.08-02.07.30:465][308]PIE: New page: PIE session: ReceptionLevel_Map (Aug 9, 2022, 2:07:30 AM)
+[2022.08.08-02.07.30:502][308]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map
+[2022.08.08-02.07.30:511][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008857s)
+[2022.08.08-02.07.30:512][308]LogAIModule: Creating AISystem for world ReceptionLevel_Map
+[2022.08.08-02.07.30:513][308]LogPlayLevel: PIE: World Init took: (0.001523s)
+[2022.08.08-02.07.30:513][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/ReceptionLevel_Map.ReceptionLevel_Map to /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map.ReceptionLevel_Map (0.010560s)
+[2022.08.08-02.07.30:544][308]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2022.08.08-02.07.30:545][308]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.08.08-02.07.30:545][308]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.08-02.07.30:545][308]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.08-02.07.30:545][308]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.08-02.07.30:545][308]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.08-02.07.30:545][308]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.08-02.07.30:545][308]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.08-02.07.30:545][308]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.08-02.07.30:545][308]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.08-02.07.30:546][308]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.08-02.07.30:546][308]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.08-02.07.30:546][308]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.08-02.07.30:546][308]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.08-02.07.30:549][308]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.08-02.07.30:549][308]LogAudioMixer: Display: 1: FrontRight
+[2022.08.08-02.07.30:554][308]LogAudioMixer: Display: Using Audio Device Headphones (Synaptics HD Audio)
+[2022.08.08-02.07.30:554][308]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.08-02.07.30:554][308]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.08-02.07.30:554][308]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.08-02.07.30:554][308]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.08-02.07.30:554][308]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.08.08-02.07.30:554][308]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.08.08-02.07.30:555][308]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.08.08-02.07.30:555][308]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.08.08-02.07.30:555][308]LogInit: FAudioDevice initialized.
+[2022.08.08-02.07.30:555][308]LogAudio: Display: Audio Device (ID: 12) registered with world 'ReceptionLevel_Map'.
+[2022.08.08-02.07.30:565][308]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.08.08-02.07.30:567][308]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map.ReceptionLevel_Map up for play (max tick rate 0) at 2022.08.08-14.07.30
+[2022.08.08-02.07.30:567][308]LogWorld: Bringing up level for play took: 0.001057
+[2022.08.08-02.07.30:567][308]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2022.08.08-02.07.30:569][308]PIE: Server logged in
+[2022.08.08-02.07.30:570][308]PIE: Play in editor total start time 0.105 seconds.
+[2022.08.08-02.07.34:903][825]LogAudio: Warning: Detected orphaned looping sound 'Ghosts_Cue'.
+[2022.08.08-02.07.39:713][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.08-02.07.39:713][396]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_ReceptionLevel_Map
+[2022.08.08-02.07.39:713][396]LogWorld: UWorld::CleanupWorld for ReceptionLevel_Map, bSessionEnded=true, bCleanupResources=true
+[2022.08.08-02.07.39:713][396]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.08-02.07.39:724][396]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.08-02.07.39:734][396]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.08-02.07.39:760][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.08-02.07.39:760][396]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.08.08-02.07.39:761][396]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.08.08-02.07.39:782][396]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2022.08.08-02.07.39:811][397]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.08.08-02.08.07:615][704]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WhisperingVoices...
+[2022.08.08-02.08.07:615][704]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/FirstPersonBP/Sounds/WhisperingVoices.WhisperingVoices will be modified from 40 to 40.
+[2022.08.08-02.08.07:744][704]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 1791140 while cooking SoundWave /Game/FirstPersonBP/Sounds/WhisperingVoices.WhisperingVoices.
+[2022.08.08-02.09.38:643][556]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2022.08.08-02.09.38:663][556]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/ReceptionLevel_Map_Auto2FF7200D94109CC3825C3CFBD854D40C0.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Autosaves/Game/FirstPersonBP/Maps/ReceptionLevel_Map_Auto2.umap'
+[2022.08.08-02.09.38:663][556]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonBP/Maps/ReceptionLevel_Map' took 0.054
+[2022.08.08-02.09.38:663][556]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.054
+[2022.08.08-02.09.38:664][556]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Sounds/Ghosts] ([1] browsable assets)...
+[2022.08.08-02.09.38:669][556]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/Sounds/Ghosts.Ghosts]
+[2022.08.08-02.09.38:669][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Sounds/Ghosts]
+[2022.08.08-02.09.38:672][556]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Ghosts_Auto2221950C7469DFBE6A007DD966BA37115.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Autosaves/Game/FirstPersonBP/Sounds/Ghosts_Auto2.uasset'
+[2022.08.08-02.09.38:672][556]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Sounds/WhisperingVoices] ([1] browsable assets)...
+[2022.08.08-02.09.38:676][556]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/Sounds/WhisperingVoices.WhisperingVoices]
+[2022.08.08-02.09.38:676][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Sounds/WhisperingVoices]
+[2022.08.08-02.09.38:678][556]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/WhisperingVoices_Auto227FE68854376678CED535A9D5558FB9D.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Autosaves/Game/FirstPersonBP/Sounds/WhisperingVoices_Auto2.uasset'
+[2022.08.08-02.09.38:679][556]LogFileHelpers: Auto-saving content packages took 0.015
+[2022.08.08-02.14.05:261][474]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2022.08.08-02.14.06:423][474]LogSlate: Window 'Delete Assets' being destroyed
+[2022.08.08-02.14.06:504][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2022.08.08-02.14.06:539][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2022.08.08-02.14.06:565][474]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.08.08-02.26.43:000][771]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\Users\MDS000026E\Documents\GitHub\Prototype2\HauntedHotel\Content\FirstPersonBP\Sounds\Step_Carpet.wav)
+[2022.08.08-02.26.43:004][771]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\Users\MDS000026E\Documents\GitHub\Prototype2\HauntedHotel\Content\FirstPersonBP\Sounds\Step_Marble.wav)
+[2022.08.08-02.26.43:005][771]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\Users\MDS000026E\Documents\GitHub\Prototype2\HauntedHotel\Content\FirstPersonBP\Sounds\Step_Wood.wav)
+[2022.08.08-02.27.15:184][757]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2022.08.08-02.27.15:185][757]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonBP/Maps/ReceptionLevel_Map' took 0.034
+[2022.08.08-02.27.15:186][757]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Sounds/Step_Carpet] ([1] browsable assets)...
+[2022.08.08-02.27.15:189][757]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/Sounds/Step_Carpet.Step_Carpet]
+[2022.08.08-02.27.15:189][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Sounds/Step_Carpet]
+[2022.08.08-02.27.15:190][757]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Step_Carpet_Auto384C1194C452ABD8DDBF7C4935F7C3FED.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Autosaves/Game/FirstPersonBP/Sounds/Step_Carpet_Auto3.uasset'
+[2022.08.08-02.27.15:191][757]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Sounds/Step_Marble] ([1] browsable assets)...
+[2022.08.08-02.27.15:194][757]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/Sounds/Step_Marble.Step_Marble]
+[2022.08.08-02.27.15:194][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Sounds/Step_Marble]
+[2022.08.08-02.27.15:196][757]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Step_Marble_Auto34C2F35834D9FEE085709CBABF50E3DFF.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Autosaves/Game/FirstPersonBP/Sounds/Step_Marble_Auto3.uasset'
+[2022.08.08-02.27.15:197][757]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Sounds/Step_Wood] ([1] browsable assets)...
+[2022.08.08-02.27.15:200][757]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/Sounds/Step_Wood.Step_Wood]
+[2022.08.08-02.27.15:200][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Sounds/Step_Wood]
+[2022.08.08-02.27.15:202][757]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Step_Wood_Auto31F8E272D48EC612B97155190CD1DB21C.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Autosaves/Game/FirstPersonBP/Sounds/Step_Wood_Auto3.uasset'
+[2022.08.08-02.27.15:202][757]LogFileHelpers: Auto-saving content packages took 0.017
+[2022.08.08-02.34.29:786][298]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2022.08.08-02.34.29:827][298]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.08.08-02.34.29:845][298]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/ReceptionLevel_Map6A91EF43452D3E9F65074482437AA63E.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Maps/ReceptionLevel_Map.umap'
+[2022.08.08-02.34.29:855][298]LogFileHelpers: Saving map 'ReceptionLevel_Map' took 0.054
+[2022.08.08-02.34.29:857][298]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/FirstPersonGameModeC6A7E02E4FBCBE0C6CFF36928FEB192D.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset'
+[2022.08.08-02.34.29:858][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Sounds/BrownNoise" FILE="D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Sounds/BrownNoise.uasset" SILENT=true
+[2022.08.08-02.34.29:900][298]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/BrownNoise369AA8A94007D94C383BDDAFF5EDF374.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Sounds/BrownNoise.uasset'
+[2022.08.08-02.34.29:916][298]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/FirstPersonCharacter_BP8EAC7B084E1BBFDC091E6BB6EBDBBE38.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Blueprints/FirstPersonCharacter_BP.uasset'
+[2022.08.08-02.34.29:917][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Sounds/Ghosts" FILE="D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Sounds/Ghosts.uasset" SILENT=true
+[2022.08.08-02.34.29:919][298]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Ghosts7C3E5F464D31D06BFED3E5A5895D0752.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Sounds/Ghosts.uasset'
+[2022.08.08-02.34.29:921][298]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/WhisperingVoicesA428D0F243516C20034C4298E8B98FE3.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Sounds/WhisperingVoices.uasset'
+[2022.08.08-02.34.29:927][298]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/SoundOverlap_BP64A2A09E467B496E79E447B3A5293E08.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Blueprints/SoundOverlap_BP.uasset'
+[2022.08.08-02.34.29:928][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Sounds/Step_Carpet" FILE="D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Sounds/Step_Carpet.uasset" SILENT=true
+[2022.08.08-02.34.29:929][298]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Step_Carpet112E9D714C5ADC17219EA097963AAC42.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Sounds/Step_Carpet.uasset'
+[2022.08.08-02.34.29:929][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Sounds/Step_Marble" FILE="D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Sounds/Step_Marble.uasset" SILENT=true
+[2022.08.08-02.34.29:930][298]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Step_Marble0629BAC6440BA525ABD59DBEB956AF4D.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Sounds/Step_Marble.uasset'
+[2022.08.08-02.34.29:931][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Sounds/Step_Wood" FILE="D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Sounds/Step_Wood.uasset" SILENT=true
+[2022.08.08-02.34.29:932][298]LogSavePackage: Moving 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Saved/Step_Wood7D9A376F49089BCC65DA48A9B91922AF.tmp' to 'D:/Users/MDS000026E/Documents/GitHub/Prototype2/HauntedHotel/Content/FirstPersonBP/Sounds/Step_Wood.uasset'
+[2022.08.08-02.34.29:950][298]AssetCheck: New page: Asset Save: multiple assets
+[2022.08.08-02.34.29:950][298]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter_BP.FirstPersonCharacter_BP
+[2022.08.08-02.34.29:950][298]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode
+[2022.08.08-02.34.29:951][298]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/ReceptionLevel_Map.ReceptionLevel_Map
+[2022.08.08-02.34.29:951][298]LogContentValidation: Display: Validating SoundWave /Game/FirstPersonBP/Sounds/BrownNoise.BrownNoise
+[2022.08.08-02.34.29:951][298]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SoundOverlap_BP.SoundOverlap_BP
+[2022.08.08-02.34.29:951][298]LogContentValidation: Display: Validating SoundWave /Game/FirstPersonBP/Sounds/WhisperingVoices.WhisperingVoices
+[2022.08.08-02.34.29:951][298]LogContentValidation: Display: Validating SoundWave /Game/FirstPersonBP/Sounds/Ghosts.Ghosts
+[2022.08.08-02.34.29:951][298]LogContentValidation: Display: Validating SoundWave /Game/FirstPersonBP/Sounds/Step_Wood.Step_Wood
+[2022.08.08-02.34.29:951][298]LogContentValidation: Display: Validating SoundWave /Game/FirstPersonBP/Sounds/Step_Marble.Step_Marble
+[2022.08.08-02.34.29:951][298]LogContentValidation: Display: Validating SoundWave /Game/FirstPersonBP/Sounds/Step_Carpet.Step_Carpet
+[2022.08.08-02.34.31:310][453]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2022.08.08-02.34.31:343][453]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.08.08-02.34.31:343][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.08-02.34.31:379][453]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.08.08-02.34.31:379][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.08-02.34.31:428][453]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.08.08-02.34.31:428][453]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.08.08-02.34.31:428][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.08-02.34.31:467][453]LogSlate: Window 'Ghosts_Cue' being destroyed
+[2022.08.08-02.34.31:497][453]LogSlate: Window 'HauntedHotel - Unreal Editor' being destroyed
+[2022.08.08-02.34.31:587][454]Cmd: QUIT_EDITOR
+[2022.08.08-02.34.31:587][454]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.08.08-02.34.31:591][454]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.08.08-02.34.32:273][454]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.08.08-02.34.32:273][454]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.08.08-02.34.32:273][454]LogAudio: Display: Audio Device unregistered from world 'ReceptionLevel_Map'.
+[2022.08.08-02.34.32:273][454]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.08.08-02.34.32:274][454]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.08.08-02.34.32:277][454]LogAudio: Display: Audio Device Manager Shutdown
+[2022.08.08-02.34.32:277][454]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.08.08-02.34.32:283][454]LogExit: Preparing to exit.
+[2022.08.08-02.34.32:826][454]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2022.08.08-02.34.32:961][454]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.08.08-02.34.32:964][454]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.08.08-02.34.32:967][454]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.08.08-02.34.32:970][454]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.08.08-02.34.32:973][454]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.08.08-02.34.33:019][454]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.08.08-02.34.33:025][454]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.08.08-02.34.33:025][454]LogExit: Editor shut down
+[2022.08.08-02.34.33:026][454]LogExit: Transaction tracking system shut down
+[2022.08.08-02.34.33:327][454]LogExit: Object subsystem successfully closed.
+[2022.08.08-02.34.33:339][454]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.08.08-02.34.33:339][454]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.08.08-02.34.33:339][454]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.08.08-02.34.33:339][454]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2022.08.08-02.34.33:339][454]LogShaderCompilers: Display: ================================================
+[2022.08.08-02.34.33:351][454]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.08.08-02.34.33:371][454]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (876)
+[2022.08.08-02.34.33:371][454]LogModuleManager: Shutting down and abandoning module Voice (874)
+[2022.08.08-02.34.33:371][454]LogModuleManager: Shutting down and abandoning module BlueprintGraph (872)
+[2022.08.08-02.34.33:371][454]LogModuleManager: Shutting down and abandoning module StatsViewer (870)
+[2022.08.08-02.34.33:371][454]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (868)
+[2022.08.08-02.34.33:371][454]LogModuleManager: Shutting down and abandoning module SceneOutliner (866)
+[2022.08.08-02.34.33:371][454]LogModuleManager: Shutting down and abandoning module AddContentDialog (864)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module WidgetCarousel (863)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module EditorWidgets (860)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (858)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (856)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module AutomationWorker (854)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module SteamVREditor (852)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module OculusMR (850)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module OpenXRInput (848)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (846)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module TakeRecorder (845)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (842)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module TakesCore (840)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module GooglePADEditor (838)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (836)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (834)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (832)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (830)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (828)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (826)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (824)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (822)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (820)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module WebMMedia (818)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (816)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (814)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module SequenceRecorder (813)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (810)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (808)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (806)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (804)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (802)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (800)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (798)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module PlanarCut (796)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (794)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (792)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (790)
+[2022.08.08-02.34.33:372][454]LogModuleManager: Shutting down and abandoning module TextureAlignMode (788)
+[2022.08.08-02.34.33:373][454]LogModuleManager: Shutting down and abandoning module BspMode (786)
+[2022.08.08-02.34.33:373][454]LogModuleManager: Shutting down and abandoning module GeometryMode (784)
+[2022.08.08-02.34.33:373][454]LogModuleManager: Shutting down and abandoning module CharacterAI (782)
+[2022.08.08-02.34.33:373][454]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (780)
+[2022.08.08-02.34.33:373][454]LogModuleManager: Shutting down and abandoning module SmartSnapping (778)
+[2022.08.08-02.34.33:373][454]LogModuleManager: Shutting down and abandoning module SessionServices (776)
+[2022.08.08-02.34.33:374][454]LogModuleManager: Shutting down and abandoning module MeshPaint (774)
+[2022.08.08-02.34.33:374][454]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (772)
+[2022.08.08-02.34.33:374][454]LogModuleManager: Shutting down and abandoning module FoliageEdit (770)
+[2022.08.08-02.34.33:374][454]LogModuleManager: Shutting down and abandoning module LandscapeEditor (768)
+[2022.08.08-02.34.33:374][454]LogModuleManager: Shutting down and abandoning module MeshPaintMode (766)
+[2022.08.08-02.34.33:374][454]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (764)
+[2022.08.08-02.34.33:374][454]LogModuleManager: Shutting down and abandoning module ActorPickerMode (762)
+[2022.08.08-02.34.33:374][454]LogModuleManager: Shutting down and abandoning module PlacementMode (760)
+[2022.08.08-02.34.33:374][454]LogModuleManager: Shutting down and abandoning module ViewportSnapping (758)
+[2022.08.08-02.34.33:374][454]LogModuleManager: Shutting down and abandoning module ViewportInteraction (756)
+[2022.08.08-02.34.33:374][454]LogModuleManager: Shutting down and abandoning module ClothPainter (754)
+[2022.08.08-02.34.33:374][454]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (753)
+[2022.08.08-02.34.33:374][454]LogModuleManager: Shutting down and abandoning module LogVisualizer (750)
+[2022.08.08-02.34.33:374][454]LogModuleManager: Shutting down and abandoning module IntroTutorials (748)
+[2022.08.08-02.34.33:374][454]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (747)
+[2022.08.08-02.34.33:374][454]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (744)
+[2022.08.08-02.34.33:374][454]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (742)
+[2022.08.08-02.34.33:374][454]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (740)
+[2022.08.08-02.34.33:374][454]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (739)
+[2022.08.08-02.34.35:033][454]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (736)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (734)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (732)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (730)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module TraceInsights (728)
+[2022.08.08-02.34.35:034][454]MemoryProfiler: Shutdown
+[2022.08.08-02.34.35:034][454]NetworkingProfiler: Shutdown
+[2022.08.08-02.34.35:034][454]LoadingProfiler: Shutdown
+[2022.08.08-02.34.35:034][454]TimingProfiler: Shutdown
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module TraceServices (727)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (724)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (722)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module InputBindingEditor (720)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module MergeActors (718)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (716)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module LocalizationService (715)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module HardwareTargeting (712)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (710)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module UndoHistory (708)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module XmlParser (706)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module Blutility (704)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (702)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (701)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (698)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (697)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module SettingsEditor (694)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module ProjectLauncher (692)
+[2022.08.08-02.34.35:034][454]LogModuleManager: Shutting down and abandoning module SessionFrontend (690)
+[2022.08.08-02.34.35:035][454]LogModuleManager: Shutting down and abandoning module ProfilerClient (688)
+[2022.08.08-02.34.35:035][454]LogModuleManager: Shutting down and abandoning module DeviceManager (686)
+[2022.08.08-02.34.35:035][454]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (685)
+[2022.08.08-02.34.35:068][454]LogModuleManager: Shutting down and abandoning module AutomationController (682)
+[2022.08.08-02.34.35:068][454]LogModuleManager: Shutting down and abandoning module AutomationWindow (680)
+[2022.08.08-02.34.35:068][454]LogModuleManager: Shutting down and abandoning module Layers (678)
+[2022.08.08-02.34.35:068][454]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (676)
+[2022.08.08-02.34.35:068][454]LogModuleManager: Shutting down and abandoning module DetailCustomizations (674)
+[2022.08.08-02.34.35:068][454]LogModuleManager: Shutting down and abandoning module PackagesDialog (672)
+[2022.08.08-02.34.35:068][454]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (670)
+[2022.08.08-02.34.35:068][454]LogModuleManager: Shutting down and abandoning module Persona (668)
+[2022.08.08-02.34.35:068][454]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (667)
+[2022.08.08-02.34.35:068][454]LogModuleManager: Shutting down and abandoning module AnimGraph (665)
+[2022.08.08-02.34.35:068][454]LogModuleManager: Shutting down and abandoning module Kismet (662)
+[2022.08.08-02.34.35:078][454]LogModuleManager: Shutting down and abandoning module KismetWidgets (661)
+[2022.08.08-02.34.35:078][454]LogModuleManager: Shutting down and abandoning module GraphEditor (658)
+[2022.08.08-02.34.35:078][454]LogModuleManager: Shutting down and abandoning module StructViewer (656)
+[2022.08.08-02.34.35:078][454]LogModuleManager: Shutting down and abandoning module ClassViewer (654)
+[2022.08.08-02.34.35:079][454]LogModuleManager: Shutting down and abandoning module Toolbox (652)
+[2022.08.08-02.34.35:079][454]LogModuleManager: Shutting down and abandoning module ModuleUI (650)
+[2022.08.08-02.34.35:079][454]LogModuleManager: Shutting down and abandoning module OutputLog (648)
+[2022.08.08-02.34.35:080][454]LogModuleManager: Shutting down and abandoning module GammaUI (646)
+[2022.08.08-02.34.35:080][454]LogModuleManager: Shutting down and abandoning module Documentation (644)
+[2022.08.08-02.34.35:080][454]LogModuleManager: Shutting down and abandoning module LiveCoding (642)
+[2022.08.08-02.34.35:080][454]LogModuleManager: Shutting down and abandoning module LevelSequence (640)
+[2022.08.08-02.34.35:080][454]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (638)
+[2022.08.08-02.34.35:080][454]LogModuleManager: Shutting down and abandoning module MovieScene (636)
+[2022.08.08-02.34.35:080][454]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (634)
+[2022.08.08-02.34.35:080][454]LogModuleManager: Shutting down and abandoning module LauncherPlatform (632)
+[2022.08.08-02.34.35:080][454]LogModuleManager: Shutting down and abandoning module AnalyticsET (630)
+[2022.08.08-02.34.35:080][454]LogModuleManager: Shutting down and abandoning module PortalServices (628)
+[2022.08.08-02.34.35:080][454]LogModuleManager: Shutting down and abandoning module PortalRpc (626)
+[2022.08.08-02.34.35:080][454]LogModuleManager: Shutting down and abandoning module MessagingRpc (624)
+[2022.08.08-02.34.35:080][454]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (622)
+[2022.08.08-02.34.35:080][454]LogModuleManager: Shutting down and abandoning module AudioMixerCore (621)
+[2022.08.08-02.34.35:080][454]LogModuleManager: Shutting down and abandoning module AIModule (618)
+[2022.08.08-02.34.35:080][454]LogModuleManager: Shutting down and abandoning module GameplayDebugger (617)
+[2022.08.08-02.34.35:080][454]LogModuleManager: Shutting down and abandoning module AITestSuite (615)
+[2022.08.08-02.34.35:080][454]LogModuleManager: Shutting down and abandoning module NavigationSystem (613)
+[2022.08.08-02.34.35:080][454]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (610)
+[2022.08.08-02.34.35:080][454]LogModuleManager: Shutting down and abandoning module ProfilerService (608)
+[2022.08.08-02.34.35:125][454]LogModuleManager: Shutting down and abandoning module TaskGraph (606)
+[2022.08.08-02.34.35:125][454]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (604)
+[2022.08.08-02.34.35:125][454]LogModuleManager: Shutting down and abandoning module OculusEditor (602)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module OculusInput (600)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (598)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (596)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (594)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module CollectionManager (593)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (590)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module SynthesisEditor (588)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module Synthesis (586)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (584)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (582)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module OpenXREditor (580)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (578)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module TakeSequencer (576)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module TakeMovieScene (574)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module ScreenshotTools (572)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module GooglePAD (570)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module EditableMesh (568)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (566)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module CableComponent (564)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module AudioCapture (562)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (561)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (558)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module AssetTags (556)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (554)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module AppleImageUtils (552)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module AndroidPermission (550)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (548)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (546)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module TemplateSequence (544)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module MediaCompositing (542)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module ImgMedia (540)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (538)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module MotoSynth (536)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (534)
+[2022.08.08-02.34.35:126][454]LogOpenImageDenoise: OIDN shutting down
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (532)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (530)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (528)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (526)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (524)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module MeshConversion (522)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module DynamicMesh (520)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (518)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module GeometricObjects (516)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (514)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (512)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module PluginBrowser (510)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (508)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (506)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (504)
+[2022.08.08-02.34.35:126][454]LogModuleManager: Shutting down and abandoning module UObjectPlugin (502)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module CurveEditorTools (500)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (498)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module CryptoKeys (496)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (494)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (492)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module PluginUtils (490)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (488)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (486)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module GitSourceControl (484)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module SourceControl (483)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (480)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (479)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (476)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (474)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (472)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (470)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (468)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (466)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module ChaosNiagara (464)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module FractureEditor (462)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (461)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (458)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module BackChannel (456)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (454)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module AutomationUtils (452)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module AlembicImporter (450)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module AlembicLibrary (449)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module GeometryCache (448)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (447)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (442)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (440)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (438)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (436)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module LiveLinkSequencer (434)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module LiveLinkMovieScene (432)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module LiveLinkGraphNode (430)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (428)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module LiveLinkComponents (426)
+[2022.08.08-02.34.35:127][454]LogModuleManager: Shutting down and abandoning module LiveLink (424)
+[2022.08.08-02.34.35:971][454]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (422)
+[2022.08.08-02.34.35:971][454]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (420)
+[2022.08.08-02.34.35:971][454]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (418)
+[2022.08.08-02.34.35:971][454]LogModuleManager: Shutting down and abandoning module Paper2DEditor (416)
+[2022.08.08-02.34.35:972][454]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (414)
+[2022.08.08-02.34.35:972][454]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (412)
+[2022.08.08-02.34.35:972][454]LogModuleManager: Shutting down and abandoning module SoundFields (410)
+[2022.08.08-02.34.35:972][454]LogModuleManager: Shutting down and abandoning module SignificanceManager (408)
+[2022.08.08-02.34.35:972][454]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (406)
+[2022.08.08-02.34.35:972][454]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (404)
+[2022.08.08-02.34.35:972][454]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (402)
+[2022.08.08-02.34.35:972][454]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (398)
+[2022.08.08-02.34.35:972][454]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (396)
+[2022.08.08-02.34.35:972][454]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (394)
+[2022.08.08-02.34.35:972][454]LogModuleManager: Shutting down and abandoning module ActorSequence (392)
+[2022.08.08-02.34.35:972][454]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (390)
+[2022.08.08-02.34.35:972][454]LogModuleManager: Shutting down and abandoning module UdpMessaging (388)
+[2022.08.08-02.34.36:072][454]LogModuleManager: Shutting down and abandoning module TcpMessaging (386)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (384)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (382)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (380)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (378)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (376)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (374)
+[2022.08.08-02.34.36:173][454]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (372)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (370)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (368)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (366)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module MagicLeapController (364)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (362)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module MagicLeapAR (360)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (358)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (356)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module FacialAnimation (354)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module DataValidation (352)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (350)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (348)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module Niagara (346)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module SignalProcessing (345)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module NiagaraEditor (343)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module NiagaraCore (340)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (338)
+[2022.08.08-02.34.36:173][454]LogModuleManager: Shutting down and abandoning module LevelEditor (337)
+[2022.08.08-02.34.36:174][454]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (336)
+[2022.08.08-02.34.36:174][454]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (334)
+[2022.08.08-02.34.36:174][454]LogModuleManager: Shutting down and abandoning module MainFrame (332)
+[2022.08.08-02.34.36:174][454]LogModuleManager: Shutting down and abandoning module HotReload (331)
+[2022.08.08-02.34.36:175][454]LogModuleManager: Shutting down and abandoning module ToolMenus (327)
+[2022.08.08-02.34.36:175][454]LogModuleManager: Shutting down and abandoning module ContentBrowser (325)
+[2022.08.08-02.34.36:175][454]LogModuleManager: Shutting down and abandoning module ContentBrowserData (324)
+[2022.08.08-02.34.36:175][454]LogModuleManager: Shutting down and abandoning module TreeMap (321)
+[2022.08.08-02.34.36:175][454]LogModuleManager: Shutting down and abandoning module AnimationSharing (318)
+[2022.08.08-02.34.36:175][454]LogModuleManager: Shutting down and abandoning module GameplayCameras (316)
+[2022.08.08-02.34.36:175][454]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (314)
+[2022.08.08-02.34.36:175][454]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (312)
+[2022.08.08-02.34.36:175][454]LogModuleManager: Shutting down and abandoning module Paper2D (310)
+[2022.08.08-02.34.36:175][454]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (308)
+[2022.08.08-02.34.36:177][454]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (306)
+[2022.08.08-02.34.36:177][454]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (304)
+[2022.08.08-02.34.36:177][454]LogModuleManager: Shutting down and abandoning module PacketHandler (302)
+[2022.08.08-02.34.36:177][454]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (300)
+[2022.08.08-02.34.36:177][454]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (298)
+[2022.08.08-02.34.36:177][454]LogModuleManager: Shutting down and abandoning module MediaAssets (296)
+[2022.08.08-02.34.36:177][454]LogModuleManager: Shutting down and abandoning module Overlay (294)
+[2022.08.08-02.34.36:177][454]LogModuleManager: Shutting down and abandoning module OverlayEditor (293)
+[2022.08.08-02.34.36:177][454]LogModuleManager: Shutting down and abandoning module VREditor (290)
+[2022.08.08-02.34.36:177][454]LogModuleManager: Shutting down and abandoning module StringTableEditor (288)
+[2022.08.08-02.34.36:177][454]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (286)
+[2022.08.08-02.34.36:177][454]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (284)
+[2022.08.08-02.34.36:177][454]LogModuleManager: Shutting down and abandoning module FunctionalTesting (282)
+[2022.08.08-02.34.36:177][454]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (280)
+[2022.08.08-02.34.36:177][454]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (279)
+[2022.08.08-02.34.36:177][454]LogModuleManager: Shutting down and abandoning module UMG (276)
+[2022.08.08-02.34.36:177][454]LogModuleManager: Shutting down and abandoning module UMGEditor (275)
+[2022.08.08-02.34.36:177][454]LogModuleManager: Shutting down and abandoning module MessageLog (273)
+[2022.08.08-02.34.36:177][454]LogModuleManager: Shutting down and abandoning module SlateReflector (268)
+[2022.08.08-02.34.36:178][454]LogModuleManager: Shutting down and abandoning module Slate (266)
+[2022.08.08-02.34.36:178][454]LogModuleManager: Shutting down and abandoning module SlateCore (264)
+[2022.08.08-02.34.36:178][454]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (262)
+[2022.08.08-02.34.36:178][454]LogModuleManager: Shutting down and abandoning module UnrealEd (260)
+[2022.08.08-02.34.36:178][454]LogModuleManager: Shutting down and abandoning module MRMesh (258)
+[2022.08.08-02.34.36:178][454]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (256)
+[2022.08.08-02.34.36:178][454]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (254)
+[2022.08.08-02.34.36:178][454]LogModuleManager: Shutting down and abandoning module XAudio2 (252)
+[2022.08.08-02.34.36:178][454]LogModuleManager: Shutting down and abandoning module Networking (250)
+[2022.08.08-02.34.36:178][454]LogModuleManager: Shutting down and abandoning module Core (248)
+[2022.08.08-02.34.36:178][454]LogModuleManager: Shutting down and abandoning module MaterialEditor (246)
+[2022.08.08-02.34.36:178][454]LogModuleManager: Shutting down and abandoning module MovieSceneTools (244)
+[2022.08.08-02.34.36:179][454]LogModuleManager: Shutting down and abandoning module CurveEditor (243)
+[2022.08.08-02.34.36:179][454]LogModuleManager: Shutting down and abandoning module Sequencer (241)
+[2022.08.08-02.34.36:179][454]LogModuleManager: Shutting down and abandoning module EditorStyle (240)
+[2022.08.08-02.34.36:179][454]LogModuleManager: Shutting down and abandoning module KismetCompiler (236)
+[2022.08.08-02.34.36:179][454]LogModuleManager: Shutting down and abandoning module MeshBuilder (234)
+[2022.08.08-02.34.36:179][454]LogModuleManager: Shutting down and abandoning module MeshUtilities (232)
+[2022.08.08-02.34.36:179][454]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (231)
+[2022.08.08-02.34.36:179][454]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (230)
+[2022.08.08-02.34.36:179][454]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (229)
+[2022.08.08-02.34.36:179][454]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (227)
+[2022.08.08-02.34.36:179][454]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (225)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (223)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module MaterialBaking (219)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (214)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module DerivedDataCache (212)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module TargetPlatform (210)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (209)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (207)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (205)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (203)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (201)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (199)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (197)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (195)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (193)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (191)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (189)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (187)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module ImageWrapper (186)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (183)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (181)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (179)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (177)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (175)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (173)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (171)
+[2022.08.08-02.34.36:180][454]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (169)
+[2022.08.08-02.34.36:181][454]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (167)
+[2022.08.08-02.34.36:181][454]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (165)
+[2022.08.08-02.34.36:181][454]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (163)
+[2022.08.08-02.34.36:181][454]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (161)
+[2022.08.08-02.34.36:181][454]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (159)
+[2022.08.08-02.34.36:181][454]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (157)
+[2022.08.08-02.34.36:181][454]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (155)
+[2022.08.08-02.34.36:181][454]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (153)
+[2022.08.08-02.34.36:181][454]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (151)
+[2022.08.08-02.34.36:181][454]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (149)
+[2022.08.08-02.34.36:181][454]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (147)
+[2022.08.08-02.34.36:181][454]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (145)
+[2022.08.08-02.34.36:181][454]LogModuleManager: Shutting down and abandoning module Messaging (143)
+[2022.08.08-02.34.36:181][454]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (141)
+[2022.08.08-02.34.36:182][454]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (139)
+[2022.08.08-02.34.36:185][454]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (137)
+[2022.08.08-02.34.36:185][454]LogModuleManager: Shutting down and abandoning module D3D11RHI (134)
+[2022.08.08-02.34.36:185][454]LogModuleManager: Shutting down and abandoning module InputCore (132)
+[2022.08.08-02.34.36:185][454]LogModuleManager: Shutting down and abandoning module Settings (130)
+[2022.08.08-02.34.36:185][454]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (128)
+[2022.08.08-02.34.36:185][454]LogModuleManager: Shutting down and abandoning module PhysXCooking (126)
+[2022.08.08-02.34.36:185][454]LogModuleManager: Shutting down and abandoning module Chaos (124)
+[2022.08.08-02.34.36:185][454]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (122)
+[2022.08.08-02.34.36:185][454]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (121)
+[2022.08.08-02.34.36:185][454]LogModuleManager: Shutting down and abandoning module AVEncoder (120)
+[2022.08.08-02.34.36:185][454]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (116)
+[2022.08.08-02.34.36:185][454]LogModuleManager: Shutting down and abandoning module SteamVRInput (114)
+[2022.08.08-02.34.36:185][454]LogModuleManager: Shutting down and abandoning module SteamVR (112)
+[2022.08.08-02.34.36:185][454]LogHMD: Freeing OpenVRDLLHandle.
+[2022.08.08-02.34.36:185][454]LogModuleManager: Shutting down and abandoning module OculusHMD (110)
+[2022.08.08-02.34.36:185][454]LogModuleManager: Shutting down and abandoning module VariantManagerContent (108)
+[2022.08.08-02.34.36:185][454]LogModuleManager: Shutting down and abandoning module OpenXRHandTracking (106)
+[2022.08.08-02.34.36:185][454]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.08.08-02.34.36:185][454]LogModuleManager: Shutting down and abandoning module OpenXREyeTracker (104)
+[2022.08.08-02.34.36:185][454]LogModuleManager: Shutting down and abandoning module OpenXRAR (102)
+[2022.08.08-02.34.36:185][454]LogModuleManager: Shutting down and abandoning module AugmentedReality (101)
+[2022.08.08-02.34.36:185][454]LogModuleManager: Shutting down and abandoning module OpenXRHMD (98)
+[2022.08.08-02.34.36:186][454]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (96)
+[2022.08.08-02.34.36:186][454]LogModuleManager: Shutting down and abandoning module ChunkDownloader (94)
+[2022.08.08-02.34.36:186][454]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2022.08.08-02.34.36:186][454]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (88)
+[2022.08.08-02.34.36:187][454]LogModuleManager: Shutting down and abandoning module XMPP (83)
+[2022.08.08-02.34.36:187][454]LogModuleManager: Shutting down and abandoning module WebSockets (82)
+[2022.08.08-02.34.36:220][454]LogModuleManager: Shutting down and abandoning module HTTP (79)
+[2022.08.08-02.34.36:220][454]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.08.08-02.34.36:220][454]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE5BBA121-4360-A9A4-5E8F-CE81ACC45E41%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.1-17735300%2B%2B%2BUE4%2BRelease-4.27&UserID=69fd1f624134c999d0493d89037cf5a7%7Cc2b391b2e38f4c65bfc70bdb6b8e80b3%7C2c23d219-0f1c-4851-a1da-372227e2e43d&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.08.08-02.34.36:220][454]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2022.08.08-02.34.36:248][454]LogModuleManager: Shutting down and abandoning module SSL (78)
+[2022.08.08-02.34.36:249][454]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2022.08.08-02.34.36:249][454]LogModuleManager: Shutting down and abandoning module WmfMedia (72)
+[2022.08.08-02.34.36:250][454]LogModuleManager: Shutting down and abandoning module Media (71)
+[2022.08.08-02.34.36:251][454]LogModuleManager: Shutting down and abandoning module MediaInfo (70)
+[2022.08.08-02.34.36:251][454]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (66)
+[2022.08.08-02.34.36:251][454]LogModuleManager: Shutting down and abandoning module MLSDK (64)
+[2022.08.08-02.34.36:251][454]LogModuleManager: Shutting down and abandoning module MagicLeap (62)
+[2022.08.08-02.34.36:251][454]LogModuleManager: Shutting down and abandoning module PixWinPlugin (60)
+[2022.08.08-02.34.36:251][454]LogModuleManager: Shutting down and abandoning module ChaosCloth (58)
+[2022.08.08-02.34.36:251][454]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2022.08.08-02.34.36:251][454]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2022.08.08-02.34.36:252][454]LogModuleManager: Shutting down and abandoning module DatasmithContent (52)
+[2022.08.08-02.34.36:252][454]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2022.08.08-02.34.36:252][454]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2022.08.08-02.34.36:252][454]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (46)
+[2022.08.08-02.34.36:252][454]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2022.08.08-02.34.36:252][454]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2022.08.08-02.34.36:252][454]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2022.08.08-02.34.36:252][454]LogModuleManager: Shutting down and abandoning module OodleDataCompressionFormat (38)
+[2022.08.08-02.34.36:252][454]LogModuleManager: Shutting down and abandoning module XGEController (36)
+[2022.08.08-02.34.36:252][454]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2022.08.08-02.34.36:252][454]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2022.08.08-02.34.36:252][454]LogModuleManager: Shutting down and abandoning module PropertyEditor (31)
+[2022.08.08-02.34.36:252][454]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2022.08.08-02.34.36:252][454]LogModuleManager: Shutting down and abandoning module RenderCore (26)
+[2022.08.08-02.34.36:252][454]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2022.08.08-02.34.36:252][454]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2022.08.08-02.34.36:253][454]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.08.08-02.34.36:253][454]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.08.08-02.34.36:253][454]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.08.08-02.34.36:253][454]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.08.08-02.34.36:253][454]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.08.08-02.34.36:253][454]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.08.08-02.34.36:253][454]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.08.08-02.34.36:253][454]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.08.08-02.34.36:253][454]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.08.08-02.34.36:253][454]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.08.08-02.34.36:253][454]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.08.08-02.34.36:268][454]LogD3D11RHI: Shutdown
+[2022.08.08-02.34.36:268][454]LogD3D11RHI: CleanupD3DDevice
+[2022.08.08-02.34.36:280][454]LogExit: Exiting.
+[2022.08.08-02.34.36:307][454]Log file closed, 08/08/22 14:34:36
