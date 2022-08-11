@@ -1,0 +1,13 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (M:\Unreal projects\Prototype2).
+  Parsing headers for HauntedHotelEditor
+    Running UnrealHeaderTool "M:\Unreal projects\Prototype2\HauntedHotel\HauntedHotel.uproject" "M:\Unreal projects\Prototype2\HauntedHotel\Intermediate\Build\Win64\HauntedHotelEditor\Development\HauntedHotelEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\YOS.exe\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for HauntedHotelEditor in 4.3222574 seconds
+  Building HauntedHotelEditor...
+  Using Visual Studio 2019 14.29.30145 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 5 actions with 12 processes...
+    [1/5] Pickup.cpp
+M:\Unreal projects\Prototype2\HauntedHotel\Source\HauntedHotel\Pickup.h(7): fatal error C1083: Cannot open include file: 'Component/FirstPersonCamera.h': No such file or directory
+    [2/5] Pickup.gen.cpp
+M:\Unreal projects\Prototype2\HauntedHotel\Source\HauntedHotel/Pickup.h(7): fatal error C1083: Cannot open include file: 'Component/FirstPersonCamera.h': No such file or directory
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.27\Engine\Build\BatchFiles\Build.bat" HauntedHotelEditor Win64 Development -Project="M:\Unreal projects\Prototype2\HauntedHotel\HauntedHotel.uproject" -WaitMutex -FromMsBuild" exited with code 6.

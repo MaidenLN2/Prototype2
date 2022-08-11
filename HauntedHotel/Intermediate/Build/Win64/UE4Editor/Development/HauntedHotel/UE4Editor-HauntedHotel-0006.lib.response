@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-HauntedHotel-0006.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"M:\Unreal projects\Prototype2\HauntedHotel\Intermediate\Build\Win64\HauntedHotelEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"M:\Unreal projects\Prototype2\HauntedHotel\Intermediate\Build\Win64\UE4Editor\Development\HauntedHotel\Exorcist.cpp.obj"
+"M:\Unreal projects\Prototype2\HauntedHotel\Intermediate\Build\Win64\UE4Editor\Development\HauntedHotel\HauntedHotel.cpp.obj"
+"M:\Unreal projects\Prototype2\HauntedHotel\Intermediate\Build\Win64\UE4Editor\Development\HauntedHotel\Pickup.cpp.obj"
+"M:\Unreal projects\Prototype2\HauntedHotel\Intermediate\Build\Win64\UE4Editor\Development\HauntedHotel\Exorcist.gen.cpp.obj"
+"M:\Unreal projects\Prototype2\HauntedHotel\Intermediate\Build\Win64\UE4Editor\Development\HauntedHotel\HauntedHotel.init.gen.cpp.obj"
+"M:\Unreal projects\Prototype2\HauntedHotel\Intermediate\Build\Win64\UE4Editor\Development\HauntedHotel\Pickup.gen.cpp.obj"
+"M:\Unreal projects\Prototype2\HauntedHotel\Intermediate\Build\Win64\UE4Editor\Development\HauntedHotel\Default.rc2.res"
+/OUT:"M:\Unreal projects\Prototype2\HauntedHotel\Intermediate\Build\Win64\UE4Editor\Development\HauntedHotel\UE4Editor-HauntedHotel-0006.lib"

@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"M:\\Unreal projects\\Prototype2\\HauntedHotel\\Source\\HauntedHotel\\HauntedHotel.Build.cs",
+		"M:\\Unreal projects\\Prototype2\\HauntedHotel\\Source\\HauntedHotel.Target.cs",
+		"M:\\Unreal projects\\Prototype2\\HauntedHotel\\Source\\HauntedHotelEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.1"
+}
